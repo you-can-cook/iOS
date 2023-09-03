@@ -1,0 +1,147 @@
+PODS:
+  - Alamofire (5.7.1)
+  - AlignedCollectionViewFlowLayout (1.1.2)
+  - AppAuth (1.6.2):
+    - AppAuth/Core (= 1.6.2)
+    - AppAuth/ExternalUserAgent (= 1.6.2)
+  - AppAuth/Core (1.6.2)
+  - AppAuth/ExternalUserAgent (1.6.2):
+    - AppAuth/Core
+  - GoogleSignIn (7.0.0):
+    - AppAuth (~> 1.5)
+    - GTMAppAuth (< 3.0, >= 1.3)
+    - GTMSessionFetcher/Core (< 4.0, >= 1.1)
+  - GTMAppAuth (2.0.0):
+    - AppAuth/Core (~> 1.6)
+    - GTMSessionFetcher/Core (< 4.0, >= 1.5)
+  - GTMSessionFetcher/Core (3.1.1)
+  - IQKeyboardManagerSwift (6.5.12)
+  - KakaoSDK (2.16.0):
+    - KakaoSDKAuth (= 2.16.0)
+    - KakaoSDKCommon (= 2.16.0)
+    - KakaoSDKFriend (= 2.16.0)
+    - KakaoSDKNavi (= 2.16.0)
+    - KakaoSDKShare (= 2.16.0)
+    - KakaoSDKStory (= 2.16.0)
+    - KakaoSDKTalk (= 2.16.0)
+    - KakaoSDKTemplate (= 2.16.0)
+    - KakaoSDKUser (= 2.16.0)
+  - KakaoSDKAuth (2.16.0):
+    - KakaoSDKCommon (= 2.16.0)
+  - KakaoSDKCommon (2.16.0):
+    - KakaoSDKCommon/Common (= 2.16.0)
+    - KakaoSDKCommon/Network (= 2.16.0)
+  - KakaoSDKCommon/Common (2.16.0)
+  - KakaoSDKCommon/Network (2.16.0):
+    - Alamofire (~> 5.1)
+    - KakaoSDKCommon/Common (= 2.16.0)
+  - KakaoSDKFriend (2.16.0):
+    - KakaoSDKFriendCore (= 2.16.0)
+    - KakaoSDKUser (= 2.16.0)
+  - KakaoSDKFriendCore (2.16.0)
+  - KakaoSDKNavi (2.16.0):
+    - KakaoSDKCommon/Common (= 2.16.0)
+  - KakaoSDKShare (2.16.0):
+    - KakaoSDKCommon (= 2.16.0)
+    - KakaoSDKTemplate (= 2.16.0)
+  - KakaoSDKStory (2.16.0):
+    - KakaoSDKUser (= 2.16.0)
+  - KakaoSDKTalk (2.16.0):
+    - KakaoSDKTemplate (= 2.16.0)
+    - KakaoSDKUser (= 2.16.0)
+  - KakaoSDKTemplate (2.16.0):
+    - KakaoSDKCommon/Common (= 2.16.0)
+  - KakaoSDKUser (2.16.0):
+    - KakaoSDKAuth (= 2.16.0)
+  - Kingfisher (7.9.0)
+  - NVActivityIndicatorView (5.1.1):
+    - NVActivityIndicatorView/Base (= 5.1.1)
+  - NVActivityIndicatorView/Base (5.1.1)
+  - PryntTrimmerView (4.0.2)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+  - StepSlider (1.8.0)
+  - SteviaLayout (4.7.3)
+  - YPImagePicker (5.2.1):
+    - PryntTrimmerView (= 4.0.2)
+    - SteviaLayout (= 4.7.3)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlignedCollectionViewFlowLayout
+  - GoogleSignIn
+  - IQKeyboardManagerSwift
+  - KakaoSDK
+  - Kingfisher (~> 7.0)
+  - NVActivityIndicatorView
+  - RxCocoa
+  - RxSwift
+  - StepSlider
+  - YPImagePicker
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlignedCollectionViewFlowLayout
+    - AppAuth
+    - GoogleSignIn
+    - GTMAppAuth
+    - GTMSessionFetcher
+    - IQKeyboardManagerSwift
+    - KakaoSDK
+    - KakaoSDKAuth
+    - KakaoSDKCommon
+    - KakaoSDKFriend
+    - KakaoSDKFriendCore
+    - KakaoSDKNavi
+    - KakaoSDKShare
+    - KakaoSDKStory
+    - KakaoSDKTalk
+    - KakaoSDKTemplate
+    - KakaoSDKUser
+    - Kingfisher
+    - NVActivityIndicatorView
+    - PryntTrimmerView
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - StepSlider
+    - SteviaLayout
+    - YPImagePicker
+
+SPEC CHECKSUMS:
+  Alamofire: 0123a34370cb170936ae79a8df46cc62b2edeb88
+  AlignedCollectionViewFlowLayout: ee2ef451e741ec08f8e0967d828001e2f051c20a
+  AppAuth: 3bb1d1cd9340bd09f5ed189fb00b1cc28e1e8570
+  GoogleSignIn: b232380cf495a429b8095d3178a8d5855b42e842
+  GTMAppAuth: 99fb010047ba3973b7026e45393f51f27ab965ae
+  GTMSessionFetcher: e8647203b65cee28c5f73d0f473d096653945e72
+  IQKeyboardManagerSwift: 371b08cb39664fb56030f5345c815a4ffc74bbc0
+  KakaoSDK: 53f557e4b10bb0a90965588691bba7234c4d4728
+  KakaoSDKAuth: 1b85ed7c41b0517bfd1fc9dc46c292c75b8cb610
+  KakaoSDKCommon: d6579aa2e9d963d74e13d741cbf1cce48b8b0c17
+  KakaoSDKFriend: da5a10cdbe33a4502a6841cacf2d5e4ff5a34a36
+  KakaoSDKFriendCore: 67679bbbfa4f23ff7589c7a56f48d72f48fc1da2
+  KakaoSDKNavi: 928ff5b9118e8ca6f2489625013c1c5f1306be41
+  KakaoSDKShare: efc0415c4f33274232604eeaf96fb03641facdca
+  KakaoSDKStory: 4d0b7fd7ddaba5fe002764fb4d80a4e78e7466ab
+  KakaoSDKTalk: 44545bd9a1ebc144795eb6e927960b10cf8252f5
+  KakaoSDKTemplate: 7e478a3cda6f5879b475546bfcd667b464fbb6d0
+  KakaoSDKUser: 427e5b3884abd19ee6d9a7bd6e3f3029eb2968b8
+  Kingfisher: 59f908b6d2f403b0a3e539debb0eec05cb27002c
+  NVActivityIndicatorView: 1f6c5687f1171810aa27a3296814dc2d7dec3667
+  PryntTrimmerView: 6a43cc90df5d99addeabd33d4ba09b1365322130
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  StepSlider: 890db727e779fa99cb32afffc5887c1109e151f4
+  SteviaLayout: c2ecdcff57d44e38fd2f65e54ad52aeae28ca0c4
+  YPImagePicker: f36043210c10b0783034eb1947d6e06e31c461e4
+
+PODFILE CHECKSUM: 90b0b04d605b0b06b6ac90f07a24e3c6240761a6
+
+COCOAPODS: 1.12.1

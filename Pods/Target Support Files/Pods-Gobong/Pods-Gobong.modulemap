@@ -1,0 +1,6 @@
+framework module Pods_Gobong {
+  umbrella header "Pods-Gobong-umbrella.h"
+
+  export *
+  module * { export * }
+}

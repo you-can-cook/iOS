@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="180" id="KGk-i7-Jjw" customClass="UserInformationCell" customModule="Gobong" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="180"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="180"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="cRH-TV-8ug">
+                        <rect key="frame" x="10" y="14" width="300" height="151"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Ymb-Ro-3bd">
+                                <rect key="frame" x="0.0" y="0.0" width="300" height="88"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="프로필 이미지" translatesAutoresizingMaskIntoConstraints="NO" id="9CC-fR-t40" customClass="CircularImageView" customModule="Gobong" customModuleProvider="target">
+                                        <rect key="frame" x="106" y="0.0" width="88" height="88"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="88" id="4Vj-iW-z3h"/>
+                                            <constraint firstAttribute="height" constant="88" id="kcU-iX-ds2"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="mjg-sU-pGL">
+                                <rect key="frame" x="0.0" y="102" width="300" height="49"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="U1U-IF-eJH">
+                                        <rect key="frame" x="0.0" y="5.3333333333333286" width="100" height="38.666666666666664"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fYF-Jf-MeP">
+                                                <rect key="frame" x="29.333333333333332" y="0.0" width="41.333333333333343" height="19.333333333333332"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="레시피" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bIC-IT-uxc">
+                                                <rect key="frame" x="32" y="19.333333333333329" width="36.333333333333343" height="19.333333333333329"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="gDE-jz-412">
+                                        <rect key="frame" x="100" y="5.3333333333333286" width="100" height="38.666666666666664"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QJv-2P-U5H">
+                                                <rect key="frame" x="29.333333333333346" y="0.0" width="41.333333333333343" height="19.333333333333332"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="팔로워" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gSk-2b-xTm">
+                                                <rect key="frame" x="32" y="19.333333333333329" width="36.333333333333343" height="19.333333333333329"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="yiu-O4-V3X">
+                                        <rect key="frame" x="200" y="5.3333333333333286" width="100" height="38.666666666666664"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VJh-TD-AUM">
+                                                <rect key="frame" x="29.333333333333346" y="0.0" width="41.333333333333343" height="19.333333333333332"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="팔로잉" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Mu-zZ-z0f">
+                                                <rect key="frame" x="32" y="19.333333333333329" width="36.333333333333343" height="19.333333333333329"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Ymb-Ro-3bd" secondAttribute="trailing" id="AYs-vZ-b3G"/>
+                            <constraint firstItem="Ymb-Ro-3bd" firstAttribute="leading" secondItem="cRH-TV-8ug" secondAttribute="leading" id="D0v-V1-Pxy"/>
+                            <constraint firstItem="Ymb-Ro-3bd" firstAttribute="top" secondItem="cRH-TV-8ug" secondAttribute="top" id="QUm-iP-M9n"/>
+                            <constraint firstAttribute="trailing" secondItem="mjg-sU-pGL" secondAttribute="trailing" id="f7x-KQ-Bvy"/>
+                            <constraint firstItem="mjg-sU-pGL" firstAttribute="leading" secondItem="cRH-TV-8ug" secondAttribute="leading" id="yv9-TN-97h"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="cRH-TV-8ug" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="14" id="9dn-OU-FUq"/>
+                    <constraint firstItem="cRH-TV-8ug" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="FpR-aK-xGw"/>
+                    <constraint firstAttribute="trailing" secondItem="cRH-TV-8ug" secondAttribute="trailing" constant="10" id="kHy-U0-NDq"/>
+                    <constraint firstAttribute="bottom" secondItem="cRH-TV-8ug" secondAttribute="bottom" constant="15" id="lSy-x1-axi"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="followerCountLabel" destination="QJv-2P-U5H" id="Tzx-YY-1lJ"/>
+                <outlet property="followerStack" destination="gDE-jz-412" id="qGe-Va-Nz5"/>
+                <outlet property="followingCountLabel" destination="VJh-TD-AUM" id="obm-f1-ayy"/>
+                <outlet property="followingStack" destination="yiu-O4-V3X" id="N6R-tM-gm3"/>
+                <outlet property="profileImg" destination="9CC-fR-t40" id="yTe-7r-Stw"/>
+                <outlet property="recipeCountLabel" destination="fYF-Jf-MeP" id="3HG-Yd-QUh"/>
+            </connections>
+            <point key="canvasLocation" x="-137.40458015267174" y="94.014084507042256"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="프로필 이미지" width="88" height="88"/>
+    </resources>
+</document>
